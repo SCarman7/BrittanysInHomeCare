@@ -70,9 +70,6 @@ H3{
 .feat-img {
 	border-radius: 5px;
 }
-.img {
-	border-radius: 25px;
-}
 
 .tagline {
   margin-bottom: 0;
@@ -98,11 +95,7 @@ H3{
   }
 
   /*Main Styles------*/  
-.title{
-  color: rgba(rgb(228, 11, 228), rgb(67, 20, 73), rgb(10, 10, 71), alpha);
-  font-size: 18px;
-  font-style: italic, helvetica;
-}  
+
   .intro {
     font-size: 1.25em; /* 20px/16px */
     line-height: 1.6;  
@@ -114,9 +107,12 @@ H3{
     background-repeat: no-repeat;
     background-position:left;
     }
+
     .title{
         color:rgb(167, 36, 167);
         font-size:1.625rem;
+        display: center;
+        font-style: italic, helvetica; 
     }
     
     .primary-content,
@@ -161,8 +157,9 @@ H3{
   margin: auto;
 }
 
+.div,
 .wrap{
-  min-height:calc(100vh-89px);
+  min-height:calc(100vh-592x);
 }
 
 .container{
@@ -258,7 +255,7 @@ border-radius: 25px;
 @media (min-width:769px) {
 
   .wrap{
-    min-height: calc(100vh - 16px);
+    min-height: calc(100vh - 592px);
   }
 
 .container{

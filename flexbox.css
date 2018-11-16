@@ -8,6 +8,12 @@
      flex-direction: column;
  }
 
+ .header,
+ .img{
+     display: -webkit-inline-flex;
+
+ }
+
 .main-header{
     flex-direction: column-reverse;
     align-items: right;
@@ -65,5 +71,5 @@
   /*Show dropdown color change when menu content is shown*/
   .dropdown:hover .dropbtn {
     background-color: #ad2e74;}
-    
+
 }
